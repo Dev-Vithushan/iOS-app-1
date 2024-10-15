@@ -1,17 +1,12 @@
-//
-//  simpleAppApp.swift
-//  simpleApp
-//
-//  Created by Vithushan Logan on 2024-10-15.
-//
-
 import SwiftUI
 
 @main
-struct simpleAppApp: App {
+struct MyNavigationAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView() // Root view with NavigationStack
         }
     }
 }
+
+
